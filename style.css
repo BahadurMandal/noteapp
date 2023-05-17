@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #c5f6fa;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+    padding-left: 1.3rem;
+}
+#addbtn{
+    position: fixed;
+    right: 1.5rem;
+    top: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #2f9e44;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#addbtn:hover{
+    background-color: #42c55a;
+}
+.notes{
+    transition: 0.5s;
+    width: 21.5%;
+    height: 25rem;
+    margin: 1.5rem;
+    background-color: #8ce99a;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 4rem;
+}
+.notes:hover {
+    transform: translateY(-8px);
+  }
+.toolbar{
+    padding: 1.5rem;
+    background-color: #2f9e44;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+.icon{
+    cursor: pointer;
+
+}
+.icon:hover{
+    cursor: pointer;
+    color: #2d394f;
+}
+.notes textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background-color: inherit;
+    letter-spacing: 1.5px;
+
+}
+.notes textarea:focus{
+    border: none;
+    outline: none;
+}
